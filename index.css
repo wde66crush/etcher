@@ -1,0 +1,18 @@
+#gameBoard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  outline: 10px solid black;
+}
+.boardDiv{
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+  outline: 4px solid black;
+}
